@@ -3,564 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Maryana Alhawamdeh</title>
+    <title>Maryana</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caveat&family=Crimson+Text:ital,wght@0,400;0,700;1,700&family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Pathway+Gothic+One&family=Patrick+Hand&family=Work+Sans:wght@100&family=Yellowtail&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0edb311df1.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Pathway+Gothic+One&family=Patrick+Hand&family=Work+Sans:wght@100&family=Yellowtail&display=swap" rel="stylesheet">
-
+    <link  rel="stylesheet"  href="./style.css">
     <style>
-        *{
-            
-            background-size: cover;
-            font-family: 'Caveat', cursive;
-           
-        }
-       /*styl of nav_bar*/
-       .mai-na{
-        display: flex;
-        flex-direction: row;
-        
-        background-image: url(./5d3e5588ab71fd47cdeadf2bffe3ccd1.jpg);
        
-       }
-       .nav-item{
-
-        list-style-type: none;
-       
-        font-size: 50%;
-        font-weight: bold;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        align-items: center;
-        padding-top: 5%;
-            
-     
-         }
-        li{
-            
-            display: inline;
-            font-family: 'Caveat', cursive;
-            font-size: 20%;           
-            margin-left: 5%;
-                      
-        }
-        /*style of information */
-        .id-section{
-            display: flex;
-            margin-top: 1%;
-            margin-bottom: 1%;
-            background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        border: 1px solid #B7A878;
-        border-radius: 10%;
-           
-           
-        }
-        .image0{
-            padding-top: 2%;
-        }
-        .id_items{
-            text-align: center;
-            padding-top: 1%;
-           
-            
-        text-shadow: 20px 5px rgb(191, 188, 188);
-        }
-        /* end of section information */
-        /*style of education*/
-       #categories{
-        display: flex;
-        flex-direction: column;
-        column-gap: 2%;
         
-        margin-top: 1%;
-        margin-bottom: 1%;
-        align-items: center;
-        background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        border: 1px solid #B7A878;
-        border-radius: 10%;
-        
-
-       }
-       .categories_items{
-        
-        padding: 2%;
-        margin-top: 1%;
-       text-align: center;
-       
-       
-       background: none;
-      
-       
-
-       }
-       .li_ed:hover .image{
-    opacity: 0.3;
-       }
-       .li_ed:hover .image2{
-    opacity: 0.3;}
- .image{
-   opacity: 1;
-  display: block;
-  width: 70%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
- }
- .image2{
-    opacity: 1;
-  display: block;
-  width: 70%;
-  height: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-    
- }
- .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.li_ed:hover .middle{
-    opacity: 1;
-}
-.text{
-   background-color: #c5a16a;
-  color: rgb(18, 18, 18);
-  font-size:25px;
-  padding: 2% 5%;
-
-}
-.text2{
-    background-color: #c5a16a;
-  color: rgb(18, 18, 18);
-  font-size: 25px;
-  padding: 2% 5%;
-
-
-}
-.list_education{
-        list-style-type: none;
-        display: flex;
-        column-gap: 2%;
-        background: none;
-        text-align: center;
-        align-items: center;
-       }
-       .li_ed{
-        position: relative;
-        text-align: center;
-        align-items: center;
-        display: inline;
-        margin: 0;
-        background: none; 
-        width: 50%;  
-        
-       }
-/*end of section education*/
-/*style of project section*/
-       #project{
-        border: 1px solid #B7A878;
-        border-radius: 10%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        align-items: center;
-        background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        
-       }
-       .project_items{
-        align-items: center;
-        text-align: center;
-        display:flex;
-          flex-direction: row;
-
-       }
-       .li_pr{
-           
-        column-gap: 0.5%;
-            font-size: 30px;
-           
-           
-            font-weight: bolder;
-            background: none;
-       }
-
-       /*end style project*/
-
-       /*style of experience*/
-       #experience{
-        display: flex;
-        flex-direction: row;
-        column-gap: 10%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        align-items: center;
-        background: none;
-        background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        border: 1px solid #B7A878;
-        border-radius: 10%;
-
-
-       }
-       .list_experience{
-        display: flex;
-        flex-direction: row;
-        column-gap: 10%;
-
-       }
-       .li_ed:hover .image3{
-    opacity: 0.3;
-       }
-       .li_ed:hover .image4{
-    opacity: 0.3;
-       }
-       .li_ed:hover .image2{
-    opacity: 0.3;}
- .image3{
-   opacity: 1;
-  display: block;
-  width: 70%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
- }
- .image4{
-   opacity: 1;
-  display: block;
-  width: 70%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
- }
- .image2{
-    opacity: 1;
-  display: block;
-  width: 70%;
-  height: 100%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-    
- }
- .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  
-}
-.li_ed:hover .middle{
-    opacity: 1;
-}
-.text3 , .text4{
-   background-color: #c5a16a;
-  color: rgb(18, 18, 18);
-  font-size:25px;
-  padding: 2% 5%;
-
-}
-.text2{
-    background-color: #c5a16a;
-  color: rgb(18, 18, 18);
-  font-size: 25px;
-  padding: 2% 5%;
-
-
-}
-       
-      /*end of style experinnce*/
-      /*style of skills*/
-      #skills{
-        border: 1px solid  #B7A878;
-        border-radius: 15%;
-        text-align: center;
-        background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-
-      }
-      .sk_item{
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
-        
-       }
-       .sk_ul{
-        margin:0 auto;
-       }
-
-       /*style of contact*/
-       #contact{
-        display: flex;
-        flex-direction: column;
-        
-              }
-      .con_it{
-       /* border: 1px solid #B7A878;
-       border-radius:10%;
-       background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        */
-       
-       display: flex;
-       flex-direction: column;
-      padding-left: 8%;
-       align-items: center;
-       
-       font-size: 25px;
-
-      }
-      .contact_item{
-        display: flex;
-        flex-direction: row;
-        column-gap: 10%;
-        background-image: url(./Sitap_Soft_Shiny_Ivory.jpg);
-        border: 1px solid #B7A878;
-        border-radius: 10%;
-        margin-top: 1%;
-       margin-bottom: 1%;
-      }
-      .loc{
-       
-        margin-bottom: 1%;
-        text-align: center;
-
-      }
-      #location{
-        margin-left: 20%;
-        
-        
-       
-      }
-      /*end of style contact*/     
-       /* start of footer style */
-       #fo{
-        background-image: url(./5d3e5588ab71fd47cdeadf2bffe3ccd1.jpg);
-       
-          
-            
-       }
-  .fo_item{
-   text-align: center;
-    border: 1px solid #B7A878;
-    font-size: 30px;
-   
-  
-       }
-       .text_style{
-        /* font-family: 'Caveat', cursive; */
-       }
-       /* end of footer style */
-    
-a {
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-
-}
-@media secrean ( min-width: 576px ) { 
-    .id-section , .categories_items ,.list_education,.project_items,.list_experience,.con_it,.contact_item ,.loc,.nav-item,#contact {
-        display: flex;
-        flex-direction: column;
-    }
-    .mai-na  ,.nav-item{
-       visibility: hidden;
-    }
-   
-   textarea{
-    width: 50%;
-   }
-    }
-        
-      
     </style>
 </head>
 <body>
-    
     <header>
-        <div >
-            <nav class="mai-na"> 
-                
-                <ul class="nav-item">
-                    <li>
-                        <img src="./Maryana.png" width="70px">
-                    </li>
-                    
-                    <li >
-                        <a href="#categories">Education</a></li>
-                    <li>
-                        <a href="#project"> Project</a></li>
-                    <li>
-                        <a href="#experience">Experience</a></li>
-                    
-                    <li>
-                        <a href="#skills">Skills</a></li>
-                    
-                    <li>
-                        <a href="#Contact">Contactme</a></li>
-                    
-                </ul>
+        <section class="firstsection">
+           
+            <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="./m.png" width="80px"></a>
+            <a class="navbar-brand" href="#objectsection">Home</a>
+            <a class="navbar-brand" href="#categories">Education</a>
+            <a class="navbar-brand" href="#project">Projects</a>
+            <a class="navbar-brand" href="#Experience">Experience</a>
+            <a class="navbar-brand" href="#skills">Skills</a>
+            <a class="navbar-brand" href="#Contact">Contact me</a>
             </nav>
-            
-        </div>
-        
+                        
+        </section>
     </header>
     <main>
-        <section class="id-section">
-            <div class="id_items">
-                <h2 style="font-family: 'Caveat', cursive;font-size: 50px;">Maryana Mohammad<br> Alhawamdeh</h2>
-                <p style="font-size: 30px;">Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</p>
-
-                <a  href="./DOC-20230123-WA0004..pdf" title="" ><i class="fa-regular fa-arrow-down-to-line" style="color: #d7882d;border: 1px solid #B7A878 ;"></i> Download my CV.</a>
-
-            </div>
-            <div class="image0">
-                <img src="./Maryana.jpeg" alt="Maryana" width="90%" height="70%" >
-            </div>
-            
-
+        <section id="objectsection">
+            <div class="ob-container">
+                <div class="ob-sec">
+                  <h1>Maryana Mohammad<br> Al-Hawamdeh</h1>
+                  <p style="font-size: 30px;background: none;">Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</p>
+                  <button style="background-image: url(./Untitled\ design.png);:hover{background-color: rgb(182, 141, 91);box-shadow: rgb(185, 150, 106);}"> <a  href="./DOC-20230123-WA0004..pdf" title=""  target="_blank"    style="color:black;font-weight:bold;background-image: url(./Untitled\ design.png);font-size: 25px; " > Download my CV.</a></button>
+                </div>
+                <div class="obb-sec">
+                  <img src="./Maryana mohammad al-hawamdeh.png" alt="Maryana" width="80%" height="55%">
+                </div>
+             </div>
 
         </section>
+        <br>
+        <h2 class="line"></h2>
+
+
         <section id="categories">
-            <div class="categories_items">
-                <h2   style="font-size: 50px;background: none;">
-                    Education
-                </h2>
-                <ul class="list_education">
-                    <li class="li_ed">
-                       <img src="./80737_9_1666265582.jpg" alt="ABU" class="image">
-                       <div class="middle">
-                        <div class="text"> Software Engenering </div>
+            <h2 style="text-align: center;"   >Education</h2><br><br>
+            <div class="timeline">
+                <div class="container left">
+                  <div class="content">
+                    <h2>Alshamlah High school</h2>
+                    <h4>2006-2007</h4>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="container right">
+                  <div class="content">
+                    <h2>Alhussain in Talal Univercity</h2>
+                    <h4>2007-2011</h4>
+                    <p>Software Engenering</p>
+                  </div>
+                </div>
+                <div class="container left">
+                  <div class="content">
+                    <h2>Orang Akadmy Coding</h2>
+                    <h4>2023</h4>
+
+                    <p>Web Developer</p>
+                  </div>
+                </div>
+
+               
+        </section>
+        <br>
+        <h2 class="line"></h2>
+        <section  id="project">
+            <h2  style="text-align: center;" >Projects</h2>
+            <div class="pr-cotainer">
+
+                <div class="project3-card">
+                    <a href="http://127.0.0.1:5500/mar.html#project"   target="_blank"><img src="./من دون عنوان.png" alt="project4" width="80%"  height="80%"></a>
+                    <div class="pr-container pr-center">
+                      <p>Portfolio project</p>
+                    </div>
+                  </div>
+               
+                <div class="project-card">
+                    <a href="https://maryanaalhawamdah.github.io/project2/" target="_blank"><img src="./project.png" alt="project2" width="80%" height="80%"></a>
+                    <div class="pr-container pr-center">
+                      <p>Colorlib project</p>
+                    </div>
+                  </div>
+
+              <div class="project1-card">
+                <a href="https://maryanaalhawamdah.github.io/mini_project/" target="_blank"><img src="./project1.png" alt="project1" width="80%" height="80%"></a>
+                <div class="pr-container pr-center">
+                  <p>Pizza choclate project</p>
+                </div>
+              </div>
+              
+              <div class="project2-card">
+                <a href="https://miro.com/app/board/uXjVM_lZ51Y=/" target="_blank"><img src="./fast.png" alt="project3"  width="80%" height="80%"></a>
+                <div class="pr-container pr-center">
+                  <p>Fast Clean</p>
+                </div>
+              </div>
+
+             
+            </div>
+
+        </section>
+        <br>
+        <h2 class="line"></h2>
+
+
+      <section id="Experience">
+            <h2  style="text-align: center;" >Experience</h2>
+            <div class="Ex-container">
+                <div class="Ex3-card" style="width:50%">
+                    <img src="./Akadymy.jpg" alt="Academy" style="width:70%" height="70%">
+                       <div class="Ex-container Ex-center">
+                         <p style="padding-left: 30%;">Team work/web Developer<br>6/2023-11/2023</p>
                        </div>
-                        
-                    </li>
-                    <li class="li_ed">
-                        <img src="./akadymy-aoranj-llbrmj-tdaam-alshbab-fy-mjal-albrmj-fydyoa.png" alt="orange" class="image2">
-                        <div class="middle">
-                            <div  class="text2">Web Developer</div>
+                </div>
+              <div class="Ex-card" style="width:50% ">
+                  <img src="./darlig.jpg" alt="darlig" style="width:70%" height="70%">
+                     <div class="Ex-container Ex-center">
+                      <p style="padding-left: 30%;">Human Resources and support services<br>2021-2023</p>
+                    </div>
+                </div>
+                  <div class="Ex2-card" style="width:50%">
+                     <img src="./seastar.jpg" alt="seastar" style="width:70%"  height="70%">
+                        <div class="Ex-container Ex-center">
+                          <p style="padding-left: 30%;">Human Resources and support services<br>2019-2021</p>
                         </div>
+                 </div>
+          </div>
 
-                       
-                    </li>
-                </ul>
-                
-            </div>
-        </section>
-        <section id="project">
-            <h2 style="font-size: 50px;background: none;"> Projects</h2>
+       </section>
+       <br>
+        <h2 class="line"></h2>
 
-            <div class="project_items">
-               
-                <form class="li_pr">
-                    <label for="project1">Project 1 </label><br>
-                    <a href="https://maryanaalhawamdah.github.io/mini_project/" ><img src="./project1.png" alt="project1" width="70%"></a>
-                    <!-- <button type="submit" formaction="" style="border-radius: 20px;font-size: 30px;background: none;">visit site</button> -->
-                </form>
-                <form class="li_pr">
-                    <label for="project2">Project 2 </label><br>
-                    <a href="https://maryanaalhawamdah.github.io/project2/"><img src="./project2.jpg" alt="project2"   width="70%"> </a>
-                    <!-- <button type="submit" formaction="" style="border-radius: 20px;font-size: 30px;background: none;">visit site</button> -->
-                </form>
-                
-
-                
-            </div>
-        </section>
-        <section id="experience">
-            <div class="experience_items">
-                <h2 style="font-size: 50px;background: none;text-align: center;">
-                    Experience
-                </h2>
-               
-                  
-                    <ul class="list_experience">
-                        <li class="li_ed">
-                           <img src="./WhatsApp Image 2023-07-03 at 3.04.25 PM.jpeg" alt="ABU" class="image3">
-                           <div class="middle">
-                            <div class="text3">Human Resources<br>2019-2021 </div>
-                           </div>
-                            
-                        </li>
-                        <li class="li_ed">
-                            <img src="./WhatsApp Image 2023-07-03 at 3.04.25 PM.jpeg" alt="ABU" class="image4">
-                            <div class="middle">
-                             <div class="text4">Human Resources<br>2021-2023 </div>
-                            </div>
-                             
-                         </li>
-                        <li class="li_ed">
-                            <img src="./akadymy-aoranj-llbrmj-tdaam-alshbab-fy-mjal-albrmj-fydyoa.png" alt="orange" class="image2">
-                            <div class="middle">
-                                <div  class="text2">Web Developer</div>
-                            </div>
-    
-                           
-                        </li>
-
-                    </ul>
-                    
-               
-                
-            </div>
-        </section>
-        <section id="skills">
-            <h2 style="font-size: 50px;background: none;text-align: center;">Skills</h2>
-            <div class="sk_item">
-                <ul class="sk_ul">
-                    <li><i class="fa-brands fa-html5" style="color: #3b48ab;font-size: 90px;"></i></li>
-                    <li><i class="fa-brands fa-css3-alt" style="color: #782f93;font-size: 90px;"></i></li>
-                    <li><i class="fa-brands fa-bootstrap" style="color: #ac2f78;font-size: 90px;"></i></li>
-                </ul>
-                
-            </div>
+    </section>
+    <section id="skills">
+        <h2 style="font-size: 50px;background: none;text-align: center;">Skills</h2>
+        <div class="sk_item">
+            <ul class="sk_ul">
+                <li><i class="fa-brands fa-html5" style="color: #3b48ab;font-size: 90px;"></i></li>
+                <li><i class="fa-brands fa-css3-alt" style="color: #782f93;font-size: 90px;"></i></li>
+                <li><i class="fa-brands fa-bootstrap" style="color: #ac2f78;font-size: 90px;"></i></li>
+                <li>
+                    <i class="fa-brands fa-square-git" style="color: #2a4b83;font-size: 90px;"></i>
+                </li>
+            </ul>
+            
+        </div>
 
 
-        </section>
-        <section id="Contact">
-            <div class="contact_item">
-             <form class="con_it">
-                
-                <label for="name">Your Name:</label>
-                <input type="text" name="name" >
-                <label for="email">Your Email:</label>
-                <input type="email" name="email" >
-                <label for="message">Your message:</label>
-                <textarea name="message" rows="4" cols="50"></textarea>
-                <input type="submit" value="send to me"style="font-size:25px;">
+    </section>
+    <br>
+        <h2 class="line"></h2>
 
-             </form>
-             <div class="loc">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3703.3406029346156!2d35.02761635322227!3d29.546210205199742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z2KfZhNi52YLYqNipINin2YTYudin2LTYsdip!5e1!3m2!1sen!2sjo!4v1688375048009!5m2!1sen!2sjo" width="150%" height="100%" style="border:0;border-radius: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </div>
-        </section>
-      
-           
-        
-    </main>
-    <footer>
+    <section id="Contact">
+        <h2 style="font-size: 50px;background: none;text-align: center;">Contact Me</h2>
+        <div class="contact_item">
+           <form class="con_it">
+            
+              <label for="name">Enter   Your    Name:</label>
+              <input type="text" name="name" >
+              <label for="email">Enter   Your   Email:</label>
+              <input type="email" name="email" >
+              <label for="message">Enter    Your   message:</label>
+              <textarea name="message" rows="4" cols="40"></textarea>
+              <input type="submit" value="send to me"style="font-size:25px;">
+            </form>
+        </div>
+     </section>
+     <br>
+        <h2 class="line"></h2>
+
+
+  </main> 
+  <footer>
          
-        <section id="fo">
-            <div class="fo_item">
-                <i class="fa-solid fa-envelope " style="color: #040404; ">  <span class="text_style"> maryana.alhawamdah8@gmail.com</span></i><br>
-                <i class="fa-solid fa-mobile-screen-button" style="color: #060606;"><span class="text_style">0795053882</span> </i><br>
-                <i class="fa-brands fa-square-github " style="color: #050505;"></i>
-                <i class="fa-brands fa-linkedin " style="color: #0b0b0b;"></i>
-            </div>
-        </section>
+    <section id="fo">
+        <div class="fo_item">
+            <a href="maryana.alhawamdah@gmail.com"   target="_blank"> <i class="fa-solid fa-envelope " style="color: #040404; font-size: 40px;">   </i></a>
+            <a  href="" target="_blank"> <i class="fa-solid fa-mobile-screen-button" style="color: #060606;font-size: 40px;"> </i> </a>
+        
+       
+           
+             <a  href="https://github.com/Maryanaalhawamdah"  target="_blank"  ><i class="fa-brands fa-square-github " style="color: #050505;font-size:40px;"></i></a>
+            <a  href="https://www.linkedin.com/in/maryana-alhawamdah-066a56279/"  target="_blank"> <i class="fa-brands fa-linkedin " style="color: #0b0b0b;font-size:40px;"></i></a>
+        </div>
+
+        
+    </section>
 
 
-    </footer>
+</footer>
     
 </body>
 </html>
